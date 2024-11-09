@@ -151,10 +151,6 @@ button {
   .nav-link {
     padding: 24px 0;
     display: block;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2e2f42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -188,7 +184,11 @@ button {
     display: block;
   }
 
-
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 
   .contacts-link {
     display: block;
@@ -208,11 +208,25 @@ button {
     margin-right: 76px;
   }
 
+
+  .contacts {
+    margin-left: auto;
+  }
+  
+  .contacts-list {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
   .contacts-link {
-    padding: 24px 0;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+   
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 

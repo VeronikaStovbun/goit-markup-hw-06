@@ -62,15 +62,71 @@
               <use href="./images/icons.svg#icon-cross"></use>
             </svg>
           </button>
-          <nav class="mobile-menu-nav">Navigation</nav>
-          <address>Address</address>
-          <div>Soc link</div>
+          <nav class="mobile-menu-nav">
+            <ul class="menu-nav-list">
+              <li class="menu-nav-item">
+                <a class="menu-nav-link current" href="./index.html">Studio</a>
+              </li>
+              <li class="menu-nav-item">
+                <a class="menu-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="menu-nav-item">
+                <a class="menu-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="menu-contacts">
+            <ul class="menu-contacts-list">
+              <li class="menu-contacts-item">
+                <a class="menu-contacts-link phone" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="menu-contacts-item">
+                <a class="menu-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="menu-social">
+            <ul class="menu-social-media">
+              <li class="menu-social-media-item">
+                <a href class="menu-social-media-svg">
+                  <svg class="menu-social-net" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-social-media-item">
+                <a href class="menu-social-media-svg">
+                  <svg class="menu-social-net" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-social-media-item">
+                <a href class="menu-social-media-svg">
+                  <svg class="menu-social-net" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-social-media-item">
+                <a href class="menu-social-media-svg">
+                  <svg class="menu-social-net" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="hero-section hidden">
+      <section class="hero-section">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-section-btn" data-modal-open>
@@ -79,7 +135,7 @@
         </div>
       </section>
 
-      <section class="features-section padding-for-section hidden">
+      <section class="features-section padding-for-section">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
@@ -136,7 +192,7 @@
         </div>
       </section>
 
-      <section class="ourteam-section padding-for-section hidden">
+      <section class="ourteam-section padding-for-section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
 
@@ -145,6 +201,7 @@
               <img
                 class="our-team-img"
                 src="./images/men1.jpg"
+                srcset="./images/men1.jpg 1x, ./images/imgmark.jpg 2x"
                 alt="Picture of a men"
                 width="264"
                 height="260"
@@ -189,6 +246,7 @@
               <img
                 class="our-team-img"
                 src="./images/men2.jpg"
+                srcset="./images/men2.jpg 1x, ./images/imgtom.jpg 2x"
                 alt="Picture of a men"
                 width="264"
                 height="260"
@@ -233,6 +291,7 @@
               <img
                 class="our-team-img"
                 src="./images/women.jpg"
+                srcset="./images/women.jpg 1x, ./images/imgcamila.jpg 2x"
                 alt="Picture of a women"
                 width="264"
                 height="260"
@@ -277,6 +336,7 @@
               <img
                 class="our-team-img"
                 src="./images/men4.jpg"
+                srcset="./images/men4.jpg 1x, ./images/imgdaniel.jpg 2x"
                 alt="Picture of a men"
                 width="264"
                 height="260"
@@ -320,14 +380,16 @@
         </div>
       </section>
 
-      <section class="portfolio-section padding-for-section hidden">
-        <div class="container">
+      <section class="portfolio-section padding-for-section">
+        <div class="container portfolio-container">
           <h2 class="portfolio-section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-list-item">
               <div class="portfolio-list-pctr">
                 <img
+                  class="section-img"
                   src="./images/1.jpg"
+                  srcset="./images/1.jpg 1x, ./images/imgbanking.jpg 2x"
                   alt="App picture"
                   width="360"
                   height="300"
@@ -348,7 +410,9 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-pctr">
                 <img
+                  class="section-img"
                   src="./images/img-2.jpg"
+                  srcset="./images/img-2.jpg 1x, ./images/imgpayment.jpg 2x"
                   alt="Marketing"
                   width="360"
                   height="300"
@@ -369,7 +433,9 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-pctr">
                 <img
+                  class="section-img"
                   src="./images/img-3.jpg"
+                  srcset="./images/img-3.jpg 1x, ./images/imgapp.jpg 2x"
                   alt="Meditation app"
                   width="360"
                   height="300"
@@ -390,7 +456,9 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-pctr">
                 <img
+                  class="section-img"
                   src="./images/img-4-2.jpg"
+                  srcset="./images/img-4-2.jpg 1x, ./images/imgtaxi.jpg 2x"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -410,7 +478,9 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-pctr">
                 <img
+                  class="section-img"
                   src="./images/img-5.jpg"
+                  srcset="./images/img-5.jpg 1x, ./images/imgillustrator.jpg 2x"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -431,7 +501,9 @@
             <li class="portfolio-list-item">
               <div class="portfolio-list-pctr">
                 <img
+                  class="section-img"
                   src="./images/6.jpg"
+                  srcset="./images/6.jpg 1x, ./images/imgcourses.jpg 2x"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -452,7 +524,7 @@
       </section>
     </main>
 
-    <footer class="page-footer hidden">
+    <footer class="page-footer">
       <div class="container container-footer">
         <div class="footer-container">
           <a class="logo footer-logo" href="./index.html"
@@ -519,7 +591,7 @@
       </div>
     </footer>
 
-    <div class="backdrop hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="cross-button" type="button" data-modal-close>
           <svg class="icon-cross" width="8" height="8">
